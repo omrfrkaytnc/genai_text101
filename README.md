@@ -54,12 +54,16 @@ Create a .env file in the root directory and add your API keys:
 
 Each script is a standalone application that can be run independently. 
 For example, to run the OpenAI chat application:
+
    ```bash
    streamlit run chat.py
+
+
 
 ### Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
 
 ### License
 
