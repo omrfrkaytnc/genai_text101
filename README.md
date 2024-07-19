@@ -49,3 +49,18 @@ Create a .env file in the root directory and add your API keys:
     cohere_apikey=your_cohere_api_key
     google_apikey=your_google_api_key
     replicate_apikey=your_replicate_api_key
+
+### Running the Applications
+
+Each script is a standalone application that can be run independently. 
+For example, to run the OpenAI chat application:
+   ```bash
+   streamlit run chat.py
+
+### Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
+### License
+
+This project is licensed under the MIT License.
