@@ -60,11 +60,11 @@ For example, to run the OpenAI chat application:
 
 
 
-### Contributing
+## Running the Applications
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
 
-### License
+## License
 
 This project is licensed under the MIT License.
