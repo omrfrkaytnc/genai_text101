@@ -139,4 +139,6 @@ Her betik bağımsız olarak çalıştırılabilen bir uygulamadır.
    ```bash
    streamlit run chat.py
    ```
+### Lisans
+Bu proje MIT Lisansı altında lisanslanmıştır.
 Diğer uygulamaları çalıştırmak için chat.py dosya adını ilgili betik adıyla değiştirin.
