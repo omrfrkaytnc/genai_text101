@@ -38,9 +38,11 @@ This repository contains several Python scripts, each demonstrating how to conne
    ```bash
    git clone https://github.com/yourusername/genai_text101.git
    cd genai_text101
+
 2. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
+
 3. Set up your environment variables:
 Create a .env file in the root directory and add your API keys:
    ```env
@@ -58,9 +60,9 @@ For example, to run the OpenAI chat application:
    ```bash
    streamlit run chat.py
 
+Replace chat.py with the respective script name to run other applications.
 
-
-### Running the Applications
+### Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
@@ -68,3 +70,68 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 ### License
 
 This project is licensed under the MIT License.
+
+---
+
+# genai_text101
+
+`genai_text101` projesine hoş geldiniz. Bu proje, birden fazla yapay zeka modelinin Python uygulamalarına entegrasyonunu göstermektedir. Bu depo, OpenAI'nin GPT-4'ü, Anthropic'in Claude'u, Cohere'nin Command'i, Google'ın Gemini'si ve Llama 2 ve Mixtral gibi açık kaynak modeller de dahil olmak üzere çeşitli üretken yapay zeka modellerinin kullanımını göstermektedir. Her model, kullanıcılarla etkileşimli iletişim sağlayan bir Streamlit uygulamasına entegre edilmiştir.
+
+## Genel Bakış
+
+Bu depo, her biri farklı üretken yapay zeka modellerine kendi API'ları aracılığıyla nasıl bağlanılacağını ve bunlarla nasıl etkileşime girileceğini gösteren çeşitli Python betiklerini içermektedir. Bu projenin temel amacı, farklı yapay zeka hizmetlerini kullanarak kullanıcı sorgularını yanıtlayabilen sohbet uygulamaları oluşturmanın uygulamalı bir örneğini sağlamaktır.
+
+## Özellikler
+
+- **OpenAI GPT-4**: OpenAI'nin GPT-4 modelinden yararlanan etkileşimli sohbet uygulaması.
+- **Anthropic Claude**: Anthropic'in Claude modeli ile etkileşim kurmak için Streamlit arayüzü.
+- **Cohere Command**: Cohere'nin AI modelini kullanan bir sohbet uygulaması.
+- **Google Gemini**: Google'ın Gemini modelini kullanarak yanıtlar oluşturan uygulama.
+- **Açık Kaynak Modeller**: Llama 2 ve Mixtral gibi açık kaynak modelleri kullanarak yapay zeka yanıtları oluşturan uygulamalar.
+
+## Depo Yapısı
+
+- `app.py`: OpenAI'nin GPT-4 modelinin entegrasyonunu gösterir.
+- `chat.py`: OpenAI'nin GPT-4 modelini kullanarak etkileşimli iletişim sağlayan bir Streamlit sohbet arayüzü.
+- `claude.py`: Anthropic'in Claude modeli için bir sohbet arayüzü uygular.
+- `command.py`: Cohere'nin Command modelini kullanan Streamlit tabanlı bir sohbet uygulaması.
+- `gemini.py`: Google'ın Gemini modelini bir sohbet arayüzüne entegre eder.
+- `open_source.py`: Llama 2 ve Mixtral gibi açık kaynak modelleri kullanarak yapay zeka yanıtları oluşturan örnekler.
+
+## Başlarken
+
+### Gereksinimler
+
+- Python 3.7+
+- Streamlit
+- dotenv
+- Her model için gerekli API anahtarları (OpenAI, Anthropic, Cohere, Google, Replicate)
+
+### Kurulum
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/yourusername/genai_text101.git
+   cd genai_text101
+2. Gerekli Python paketlerini yükleyin:
+   ```bash
+   pip install -r requirements.txt
+
+3. Ortam değişkenlerinizi ayarlayın:
+Kök dizinde bir .env dosyası oluşturun ve API anahtarlarınızı ekleyin:
+   ```env
+    openai_apikey=your_openai_api_key
+    anthropic_apikey=your_anthropic_api_key
+    cohere_apikey=your_cohere_api_key
+    google_apikey=your_google_api_key
+    replicate_apikey=your_replicate_api_key
+
+### Uygulamaları Çalıştırma
+
+Her betik bağımsız olarak çalıştırılabilen bir uygulamadır.
+Örneğin, OpenAI sohbet uygulamasını çalıştırmak için:
+
+   ```bash
+   streamlit run chat.py
+
+Diğer uygulamaları çalıştırmak için chat.py dosya adını ilgili betik adıyla değiştirin.
