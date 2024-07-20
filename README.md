@@ -38,10 +38,12 @@ This repository contains several Python scripts, each demonstrating how to conne
    ```bash
    git clone https://github.com/yourusername/genai_text101.git
    cd genai_text101
+   ```
 
 2. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
+   ```
 
 3. Set up your environment variables:
 Create a .env file in the root directory and add your API keys:
@@ -59,7 +61,7 @@ For example, to run the OpenAI chat application:
 
    ```bash
    streamlit run chat.py
-
+   ```
 Replace chat.py with the respective script name to run other applications.
 
 ### Contributing
@@ -113,9 +115,11 @@ Bu depo, her biri farklı üretken yapay zeka modellerine kendi API'ları aracı
    ```bash
    git clone https://github.com/yourusername/genai_text101.git
    cd genai_text101
+   ```
 2. Gerekli Python paketlerini yükleyin:
    ```bash
    pip install -r requirements.txt
+   ```
 
 3. Ortam değişkenlerinizi ayarlayın:
 Kök dizinde bir .env dosyası oluşturun ve API anahtarlarınızı ekleyin:
@@ -125,6 +129,7 @@ Kök dizinde bir .env dosyası oluşturun ve API anahtarlarınızı ekleyin:
     cohere_apikey=your_cohere_api_key
     google_apikey=your_google_api_key
     replicate_apikey=your_replicate_api_key
+   ```
 
 ### Uygulamaları Çalıştırma
 
@@ -133,5 +138,5 @@ Her betik bağımsız olarak çalıştırılabilen bir uygulamadır.
 
    ```bash
    streamlit run chat.py
-
+   ```
 Diğer uygulamaları çalıştırmak için chat.py dosya adını ilgili betik adıyla değiştirin.
