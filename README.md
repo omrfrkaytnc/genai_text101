@@ -36,7 +36,7 @@ This repository contains several Python scripts, each demonstrating how to conne
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/genai_text101.git
+   git clone https://github.com/omrfrkaytnc/genai_text101.git
    cd genai_text101
    ```
 
@@ -113,7 +113,7 @@ Bu depo, her biri farklı üretken yapay zeka modellerine kendi API'ları aracı
 
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/yourusername/genai_text101.git
+   git clone https://github.com/omrfrkaytnc/genai_text101.git
    cd genai_text101
    ```
 2. Gerekli Python paketlerini yükleyin:
@@ -141,4 +141,3 @@ Her betik bağımsız olarak çalıştırılabilen bir uygulamadır.
    ```
 ### Lisans
 Bu proje MIT Lisansı altında lisanslanmıştır.
-Diğer uygulamaları çalıştırmak için chat.py dosya adını ilgili betik adıyla değiştirin.
